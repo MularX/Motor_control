@@ -28,6 +28,7 @@ setup(
             'motor_controller_arrows = motor_control.motors_arrows:main',
             'imu_publisher = motor_control.imu_publisher:main',
             'ros_control = motor_control.ros_control:main',
+			'ultrasonic_scan = motor_control.ultrasonic_scan.py:main',
         ],
     },
 )
